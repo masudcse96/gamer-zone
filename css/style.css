@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
  }
  .primary-text{
      color: #ff42a5;
@@ -18,8 +21,8 @@
  Start header section
  **********************/
  .header{
-     height: 15vh;
-     background-color: rgb(255, 255, 255)
+     background-color: rgb(255, 255, 255);
+     padding: 2%;
  }
  .navbar{
      display: flex;
@@ -31,10 +34,11 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 3%;
  }
  .logo-title{
      font-size: 2rem;
+     padding-left: 3%;
+
  }
  .menu{
      width: 60%;
@@ -56,6 +60,10 @@
      background-color: rgb(225, 220, 220);
      padding: 8px 30px;
      border-radius: 5px;
+ }
+ .menu-social img{
+    width: 15%;
+    margin: 0 auto;
  }
  /*********************
  End header section
@@ -238,11 +246,18 @@
     background-color: rgb(5, 5, 48);
     color: white;
  }
- .logo{
+ .footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
     padding: 5%;
     margin: 0 auto;
     color: white;
     font-size: 1.5rem;
+ }
+ .footer-logo h1{
+    padding-left: 5%;
  }
  .footer-menu ul{
     display: flex;
